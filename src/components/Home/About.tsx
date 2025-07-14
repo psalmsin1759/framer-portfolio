@@ -60,7 +60,7 @@ export default function About() {
       ref={containerRef}
       className="flex flex-col mt-10"
     >
-      {/* Header */}
+     
       <div className="flex items-center gap-6 about-header">
         <div>
           <span className="text-primary text-2xl md:text-3xl font-semibold">
@@ -73,12 +73,12 @@ export default function About() {
         </div>
       </div>
 
-      {/* About Paragraph */}
+     
       <div className="flex gap-4 p-4 about-paragraph">
         <p className="text-gray-400">{user.about}</p>
       </div>
 
-      {/* Skills Grid */}
+      
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-8 skills-grid">
         {skills.map((skill, index) => (
           <div key={index} className="skill-item">
