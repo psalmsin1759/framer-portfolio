@@ -7,7 +7,7 @@ import Marquee from "react-fast-marquee";
 
 export default function MarqueeComponent() {
   return (
-    <div className="flex flex-col gap-3 mt-10">
+    <div className="w-full flex flex-col gap-3 mt-10">
       <Marquee
         direction="left"
         speed={50}

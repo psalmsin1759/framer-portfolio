@@ -13,7 +13,7 @@ export default function ExperienceComp() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      // Animate the header
+      
       gsap.from(".experiences-header", {
         y: -50,
         opacity: 0,
@@ -25,7 +25,7 @@ export default function ExperienceComp() {
         },
       });
 
-      // Animate each experience card
+     
       gsap.from(".experience-card", {
         y: 50,
         opacity: 0,
@@ -64,7 +64,7 @@ export default function ExperienceComp() {
         ))}
       </div>
 
-      <div className="flex justify-between gap-2 m-20">
+      <div className=" flex gap-6  md:gap-24 m-20">
         <div className="flex flex-col gap-3 justify-center items-center">
           <p className="text-primary text-2xl md:text-6xl font-semibold">
             {user.completedProjects}+

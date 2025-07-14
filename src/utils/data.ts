@@ -7,7 +7,7 @@ export const user = {
   phone: "",
   about:
     "I hold a Bachelor of Technology in Computer Science from the esteemed Art University and a Master of Fine Arts in Interactive Design. This academic foundation has equipped me with a solid understanding of the principles that underpin effective interaction design, providing me with the knowledge to create designs that seamlessly blend aesthetics and functionality.",
-  imagePath: "/images/profile.avif",
+  imagePath: "/images/profile.jpeg",
   address: "",
   completedProjects: 100,
   satisfiedCustomer: 60,
