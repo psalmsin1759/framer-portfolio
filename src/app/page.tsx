@@ -4,6 +4,7 @@ import About from "@/components/Home/About";
 import ProjectComponent from "@/components/Home/ProjectComponent";
 import ExperienceComp from "@/components/Experience/ExperienceComp";
 import MarqueeComponent from "@/components/MarqueeComponent";
+import EducationHome from "@/components/Education/EducationHome";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <ProjectComponent />
       <ExperienceComp />
       <MarqueeComponent />
+      <EducationHome />
     </div>
   );
 }

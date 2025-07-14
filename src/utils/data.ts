@@ -1,6 +1,6 @@
 export const user = {
   name: "Samuel Madu",
-  title: "Product designer | UI/UX designer",
+  title: "Product Management Specialist | UI/UX Design Expert | Business Analyst",
   description:
     "I’m Samuel Madu — a senior product designer passionately creating digital experiences and solutions for over 10 years",
   email: "",
@@ -112,34 +112,44 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "Project 1",
+    title: "Dripylux (Web and Mobile app)",
     service: "",
-    industry: "",
-    client: "",
-    date: "",
-    url: "",
+    industry: "E-commerce",
+    client: "Driplux Ltd",
+    date: "January 2025",
+    url: "https://www.dripylux.com",
     imagePath: "",
-    description: "",
+    description: "The platform was created bearing in mind that shopping for fashion should be fun, not frustrating. Dripylux takes the stress out of finding the perfect outfit with a curated selection from top brands, you can effortlessly explore and shop, saving you time, energy and money from multiple delivery charges.",
   },
   {
-    title: "Project 2",
+    title: "ZilliPay (Web and Mobile app)",
     service: "",
-    industry: "",
-    client: "",
-    date: "",
-    url: "",
+    industry: "Fintech",
+    client: "Soystek",
+    date: "March 2025",
+    url: "https://zillipay.com",
     imagePath: "",
-    description: "",
+    description: "zilli pay is transforming how you manage your money by providing secure, fast, and smart digital payment solutions. From creating virtual cards to seamless currency conversion, zilli pay makes global transactions effortless and accessible.)",
   },
   {
-    title: "Project 3",
+    title: "PAY60 (Web and Mobile app)",
     service: "",
-    industry: "",
-    client: "",
+    industry: "Fintech",
+    client: "Oatek Ltd",
     date: "",
-    url: "",
+    url: "https://pay60.co.uk",
     imagePath: "",
-    description: "",
+    description: "PAY60 is a ground-breaking international payment platform designed to revolutionize the way cross-border transactions are conducted.",
+  },
+  {
+    title: "LODIOS VOD/OTT Media Platform(Web)",
+    service: "",
+    industry: "Media/streaming",
+    client: "VAS2Nets Technologies",
+    date: "",
+    url: "https://lodios.com",
+    imagePath: "",
+    description: "Product manager for online content streaming platform. Oversaw entire product lifecycle from conception to deployment. Delivered entertainment and value-added services to top 5 blue-chip companies in Nigeria",
   },
 ];
 
@@ -186,6 +196,36 @@ export const experiences: Experience[] = [
 export const marqueeSkills = [
   "Figma",
   "Photoshop",
-  "Illustration",
-  "Framer"
+  "Draw.io",
+  "Adobe Suit(Photoshop, Adobe Illustrator)",
+  "Microsoft suit"
+]
+
+
+export interface Education {
+  title: string;
+  school: string;
+  start: string;
+  end: string;
+}
+
+export const educations: Education [] = [
+  {
+    title: "Master of Science in Technology Innovation Management",
+    school: "Saint Petersburg State Electrical Engineering University (ETU LETI), Russia",
+    start: "",
+    end: ""
+  },
+  {
+    title: "Postgraduate Diploma in Computer Science",
+    school: "Imo State University, Owerri, Nigeria",
+    start: "",
+    end: ""
+  },
+  {
+    title: "Higher National Diploma in Computer Science (Bachelor's Degree Equivalent)",
+    school: " Institute of Management & Technology, Enugu, Nigeria",
+    start: "",
+    end: ""
+  },
 ]
