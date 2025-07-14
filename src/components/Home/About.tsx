@@ -6,6 +6,7 @@ import Skills from "../Skills";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import TitleLine from "../shared/TitleLine";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -61,17 +62,7 @@ export default function About() {
       className="flex flex-col mt-10"
     >
      
-      <div className="flex items-center gap-6 about-header">
-        <div>
-          <span className="text-primary text-2xl md:text-3xl font-semibold">
-            About
-          </span>
-        </div>
-        <div className="w-full flex">
-          <div className="bg-gray-300 h-1 w-full"></div>
-          <div className="bg-primary w-12" />
-        </div>
-      </div>
+      <TitleLine title="About" className="about-header" />
 
      
       <div className="flex gap-4 p-4 about-paragraph">

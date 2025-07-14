@@ -2,11 +2,12 @@ export const user = {
   name: "Samuel Madu",
   title: "Product Management Specialist | UI/UX Design Expert | Business Analyst",
   description:
-    "I’m Samuel Madu — a senior product designer passionately creating digital experiences and solutions for over 10 years",
-  email: "",
-  phone: "",
+    "I'm Samuel Madu — a senior product manager, business analyst, and UI/UX designer with over 16 years of experience transforming digital ideas into market-leading solutions across fintech, gaming, telecommunications, and entertainment industries. I'm passionate about building innovative digital experiences that drive business growth and user engagement.",
+  email: "samuel.m@invade.ng",
+  primaryPhoneNumber: "+234 708-854-2421",
+  secondaryPhoneNumber: "+7 (929) 111-64-99",
   about:
-    "I hold a Bachelor of Technology in Computer Science from the esteemed Art University and a Master of Fine Arts in Interactive Design. This academic foundation has equipped me with a solid understanding of the principles that underpin effective interaction design, providing me with the knowledge to create designs that seamlessly blend aesthetics and functionality.",
+    "With over 16 years of hands-on experience in product management, business analysis, and UI/UX design, I have successfully transformed digital concepts into market-leading solutions across fintech, gaming, telecommunications, and entertainment industries. My expertise spans the complete product lifecycle—from initial market research and user experience design to strategic implementation and post-launch optimization. I've led cross-functional teams, managed multi-million dollar product portfolios, and delivered innovative solutions for major telecom operators, gaming platforms, and financial technology companies across Nigeria, Cameroon, Ivory Coast, and Russia. Currently pursuing advanced studies in Technology Innovation Management from Saint Petersburg State Electrical Engineering University (ETU LETI), Russia to further enhance my strategic capabilities in emerging technologies.",
   imagePath: "/images/profile.jpeg",
   address: "",
   completedProjects: 100,
@@ -14,14 +15,7 @@ export const user = {
   positiveReviews: 400,
 };
 
-export const education = [
-  {
-    degree: "",
-    school: "",
-    start: "",
-    end: "",
-  },
-];
+
 
 export interface Menu {
   title: string;
@@ -163,33 +157,41 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
-    title: "Lead Product Designer",
-    company: "Company 1",
-    start: "2023",
+    title: "Freelance UI/UX Designer & Business Analyst",
+    company: "Various Clients",
+    start: "2024",
     end: "Present",
-    responsibility: "Led the redesign of the flagship mobile application, resulting in a increase in user retention within six months. Implemented a streamlined user onboarding process, reducing user drop-offs.",
+    responsibility: "",
   },
   {
-    title: "Title 2",
-    company: "Company 2",
-    start: "2020",
-    end: "2023",
-    responsibility: "Collaborated with the development team to implement a responsive design approach, improving the mobile user experience and increasing mobile app engagement.",
+    title: "Lead, Product & Operations",
+    company: " Artist3 Hub Digital Limited (GAMIC.APP)",
+    start: "September 2022",
+    end: "Present",
+    responsibility: "Developed and implemented comprehensive product strategies and roadmap. Led market requirements gathering and management efforts. Integrated Web 3 projects (Games) with expertise in NFTs and GameFi",
   },
   {
-    title: "Title 3",
-    company: "Company 3",
-    start: "2018",
-    end: "2020",
-    responsibility: "Designed and implemented creative solutions such as wellness app and high-traffic e-commerce websites for various clients and increase overall client bussines to his satisfaction.",
+    title: "Co-Founder & Business Analyst",
+    company: "Firsdigital Limited (Cameroon, Ivory Coast)",
+    start: "January 2021",
+    end: "Present",
+    responsibility: "Pioneered business and product development strategies across major Mobile Operators. Launched three digital services on ORANGE and MTN Cameroon. Generated $20,000-$40,000 revenue in second quarter of operations",
   },
   {
-    title: "Title 4",
-    company: "Company 4",
-    start: "2015",
-    end: "2018",
-    responsibility: "nternship and starting position in creative team as Junior Designer. Focused on creating wireframes, styleguides, presentations and prototypes for web and mobile applications.",
+    title: "Senior Media & Content Manager (Business Analyst)",
+    company: "VAS2Nets Technologies Limited, Lagos",
+    start: "December 2013",
+    end: "February 2021",
+    responsibility: "Product manager for LODIOS.com VOD/OTT media platform. Delivered products to top 5 blue-chip companies in Nigeria. Served as VAS2Nets Country Manager for Cameroon. Led teams in product development across Fin-Tech, Entertainment, mobile health, and Agriculture sectors",
   },
+  {
+    title: "Head Content Admin",
+    company: "VAS2Nets Technologies Limited, Lagos",
+    start: "February 2009",
+    end: "November 2013",
+    responsibility: "Managed marketing campaigns and content development. Supervised team of 8 for SMS2tv & SMS2radio interactive platforms across Nigeria and Ghana. Created promotional materials including motion graphics and audiovisual content. Drove increased viewer/listener participation through innovative value-added services.",
+  },
+
 ];
 
 

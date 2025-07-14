@@ -5,6 +5,7 @@ import { Project, projects } from "@/utils/data";
 import ProjectCard from "../Project/ProjectCard";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import TitleLine from "../shared/TitleLine";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -44,17 +45,7 @@ export default function ProjectComponent() {
 
   return (
     <div ref={containerRef} className="flex flex-col mt-10">
-      <div className="flex items-center gap-6 projects-header">
-        <div>
-          <span className="text-primary text-2xl md:text-3xl font-semibold">
-            Projects
-          </span>
-        </div>
-        <div className="w-full flex">
-          <div className="bg-gray-300 h-1 w-full"></div>
-          <div className="bg-primary w-12" />
-        </div>
-      </div>
+      <TitleLine title="Projects" className="projects-header" />
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-8 projects-grid">
         {projects.map((project: Project, index: number) => (

@@ -5,6 +5,7 @@ import { Education, educations } from "@/utils/data";
 import EducationCard from "./EducationCard";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import TitleLine from "../shared/TitleLine";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -13,7 +14,6 @@ export default function EducationHome() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      
       gsap.from(".experiences-header", {
         y: -50,
         opacity: 0,
@@ -25,7 +25,6 @@ export default function EducationHome() {
         },
       });
 
-     
       gsap.from(".experience-card", {
         y: 50,
         opacity: 0,
@@ -44,17 +43,7 @@ export default function EducationHome() {
 
   return (
     <div ref={containerRef} className="flex flex-col mt-16">
-      <div className="flex items-center gap-6 experiences-header">
-        <div>
-          <span className="text-primary text-2xl md:text-3xl font-semibold">
-            Education
-          </span>
-        </div>
-        <div className="w-full flex">
-          <div className="bg-gray-300 h-1 w-full"></div>
-          <div className="bg-primary w-12" />
-        </div>
-      </div>
+      <TitleLine title="Education" className="experiences-header" />
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-8 experiences-grid">
         {educations.map((education: Education, index: number) => (
@@ -63,7 +52,6 @@ export default function EducationHome() {
           </div>
         ))}
       </div>
-
     </div>
   );
 }
