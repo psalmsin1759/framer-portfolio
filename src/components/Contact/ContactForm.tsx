@@ -19,14 +19,14 @@ export default function ContactForm() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-16">
-          <div>
+          <div className="grid col-span-2 md:col-span-1">
             <input
               type="text"
               className="my-input"
               placeholder="Your name..."
             />
           </div>
-          <div>
+          <div className="grid col-span-2 md:col-span-1">
             <input
               type="text"
               className="my-input"
