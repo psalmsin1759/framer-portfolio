@@ -11,7 +11,7 @@ export default function Hero() {
   const [firstName, lastName] = fullName.split(" ");
 
   return (
-    <div className="w-full relative min-h-screen flex flex-col items-center mt-10 gap-4 overflow-hidden">
+    <div className="w-full  relative md:min-h-screen flex flex-col items-center mt-10 gap-4 overflow-hidden">
      
       <motion.span
         initial={{ y: -100, opacity: 0 }}

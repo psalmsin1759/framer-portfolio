@@ -2,7 +2,7 @@
 @import "tailwindcss";
 
 :root {
-  --color-primary: #E0F11E;
+  --color-primary: #1F67F1;
   --color-bg: #ffffff;
   --color-text: #000000;
 }
@@ -14,7 +14,7 @@
 }
 
 @theme inline {
-  --color-primary: #E0F11E;
+  --color-primary: var(--color-primary);
 }
 
 body {
