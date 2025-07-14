@@ -1,6 +1,6 @@
 # Framer Portfolio
 
-> A responsive, animated, and modern portfolio built with **Next.js**, showcasing the expertise of .
+> A responsive, animated, and modern portfolio built with **Next.js**.
 
 ---
 
